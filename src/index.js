@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "react-datepicker/dist/react-datepicker.css";
+// import "jquery/dist/jquery.min.js";
+// import 'jquery/dist/jquery.min.js';
+import "datatables.net-dt/js/dataTables.dataTables";
+import "datatables.net-dt/css/jquery.dataTables.min.css"
+
 import reportWebVitals from './reportWebVitals';
+import ConfigRouter from './router/ConfigRouter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ConfigRouter />
   </React.StrictMode>
 );
 
